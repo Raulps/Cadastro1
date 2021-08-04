@@ -105,3 +105,15 @@ fieldset {
 #check {
     display: inline-block;
 }
+
+#sex {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 4rem;
+}
+
+#password {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 1rem;
+}
