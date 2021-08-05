@@ -33,14 +33,8 @@ E-mail: <input type='text' name='email' value='$res[6]' readonly><br><br><br><br
 <?php
 if(IsSet($_POST['enviar'])){
 	include"conexao.php";
-	$id=$_POST['id'];
-	$name=$_POST['name'];
-    $lastname=$_POST['lastname'];
-    $sex=$_POST['sex'];
-    $phone=$_POST['phone'];
-    $cep=$_POST['cep'];
-    $email=$_POST['email'];
-$sql="DELETE * FROM cadastro WHERE id='$id'";
+$id=$_GET['id'];
+$sql="DELETE FROM cadastro WHERE id='$id'";
 $resultado=mysqli_query($conexao,$sql);
 if($resultado){
 	echo"<script>alert('Dados excluídos com êxito!'); window.location.href='relatorio.php'</script>";
