@@ -60,12 +60,12 @@ main form label {
 }
 
 main input, select {
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 main form input, #sex  {
     background: #ffffff;
-    width: 300px;
+    width: 40%;
     height: 30px;
     padding: 0 0.5rem;
     margin-top: 0.5rem;
@@ -77,12 +77,12 @@ main form input, #sex  {
 }
 
 strong {
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 .check {
     display: flex;
-    margin-left: 30%;
+    margin-left: 38%;
 }
 
 input[type="checkbox"] {
@@ -94,12 +94,11 @@ input[type="checkbox"] {
 }
 
 .btn {
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 3%;
     border-radius: 3rem;
-    box-shadow: 2px 2px 2px #7387e6;
     background-color: #ffffff;
 }
 
@@ -108,6 +107,7 @@ main form button[type="submit"] {
     transition: all .3s ease-in-out;
     font-size: 1.1rem;
     transform: translete(-50%, -50%);
+    border: none;
 }
 
 main form button[type="submit"]:hover {
@@ -123,10 +123,24 @@ main form button[type="submit"]:hover {
     padding: 0.5rem;
 }
 
+.cadastro {
+    font-size: 1.5rem;
+    background: #7387e773;
+    box-shadow: 3px 3px 3px #7387e6;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2rem;
+}
+
 .card {
     background: #00000063;
     box-shadow: 3px 3px 3px #7387e6;
     border-radius: 1rem;
-    padding: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+    width: 90%;
     font-size: 2.2rem;
 }
