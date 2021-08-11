@@ -34,19 +34,19 @@ if($resultado){
                 <div class="card-header">
                     <h1 align="center" class="card-title">M+M Arquitetura e Design</h1>
                 </div><br>
-                <div class="card-body">
-                <h3 align="center" class="card-sub">Cadastro</h3>
-                </div>
+                <div class="card-body"></div>
             </div><br><br>
 
             <form method="post">
                 <fieldset class="group">
+                <h2 align="center" class="cadastro">Cadastro</h2>
                 <p align="center" class="info">Preencha com as informações solicitadas para concluir o cadastro</p><br>
                     <div class="name-cadastro">
                         <label for="name"><strong>Nome</strong></label>
                         <input type="text" name="name" id="name" required>
                     </div>
 
+                    <!-- classe genero-cadastro -->
                     <div class="genero-cadastro">
                         <label for="sex"><strong>Gênero</strong></label>
                         <select name="sex" id="sex" required>
@@ -57,26 +57,31 @@ if($resultado){
                         </select>
                     </div>
 
+                    <!-- phone-cadastro -->
                     <div class="phone-cadastro">
                         <label><strong>Telefone</strong></label>
                         <input type="text" class="form-control" id="phone" name="phone" required placeholder="xx xxxx-xxxx" maxlength="13" pattern="(\[0-9]{2}\)\s([9]{1})?([0-9]{4})-([0-9]{4})" />
                     </div>
 
+                    <!-- cep-cadastro -->
                     <div class="cep-cadastro">
                         <label><strong>CEP</strong></label>
                         <input type="text" name="cep" id="cep" maxlength="9" required>
                     </div>
 
+                    <!-- email-cadastro -->
                     <div class="email-cadastro">
                         <label><strong>E-mail</strong></label>
                         <input type="email" name="email" id="email" required>
                     </div>
 
+                    <!-- senha-cadastro -->
                     <div class="senha-cadastro">
                         <label><strong>Senha</strong></label>
                         <input type="password" name="password" id="password" required>
                     </div>
 
+                    <!-- check -->
                     <div class="check">
                         <label>Eu concordo:</label>
                         <input type="checkbox" name="check" id="checkbox" value="Concordo" required>            
