@@ -33,6 +33,7 @@ td, a {
     padding-left: 1%;
     padding-right: 1%;
     align-items: center;
+    font-weight: bold;
 }
 
 .editar {
