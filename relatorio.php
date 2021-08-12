@@ -19,7 +19,7 @@ echo"<tr><td>$res[0]</td>
 <td>$res[4]</td>
 <td>$res[5]</td>
 <td>$res[6]</td>
-<td><a href='editar2.php?id=$id'>Editar</td><td><a href='excluir.php?id=$id'>Excluir</td></tr>";
+<td><a class="editar" href='editar2.php?id=$id'>Editar</td><td><a class="excluir" href='excluir.php?id=$id'>Excluir</td></tr>";
 }
 echo"</table>"
 ?>
